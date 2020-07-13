@@ -4,6 +4,8 @@ Detect a string or buffer is SVG or not (javascript, nodejs)
 
 ### Installing
 
+soon:
+
 ```
 npm i detect-svg
 ```
