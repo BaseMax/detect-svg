@@ -15,8 +15,6 @@ npm i detect-svg
 ```
 detectSVG('<svg xmlns="http://www.w3.org/2000/svg"><path fill="#00CD9F"/></svg>')
 // true
-detectSVG('<svg xmlns="http://www.w3.org/2000/svg"><path fill="#00CD9F"/></svg>')
-// true
 detectSVG('<svg></svg>')
 // true
 detectSVG('<svg>')
