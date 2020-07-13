@@ -1,0 +1,36 @@
+{
+	"name": "detect-svg",
+	"version": "1.0.0",
+	"description": "Detect a string or buffer is SVG or not",
+	"license": "MIT",
+	"repository": "basemax/detect-svg",
+	"author": {
+		"name": "Max Base",
+		"email": "maxbasecode@gmail.com",
+		"url": "maxbase.org"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"img",
+		"svg",
+		"vector",
+		"image",
+		"type",
+		"graphics",
+		"pic",
+		"picture",
+		"detect",
+		"check",
+		"is",
+		"buffer",
+		"str",
+		"string"
+	],
+	"dependencies": {
+	}
+}
