@@ -10,8 +10,29 @@ soon:
 npm i detect-svg
 ```
 
+### Example
+
+```
+detectSVG('<svg xmlns="http://www.w3.org/2000/svg"><path fill="#00CD9F"/></svg>')
+// true
+detectSVG('<svg xmlns="http://www.w3.org/2000/svg"><path fill="#00CD9F"/></svg>')
+// true
+detectSVG('<svg></svg>')
+// true
+detectSVG('<svg>')
+// false
+detectSVG('<html></html>')
+// false
+detectSVG('')
+// false
+detectSVG(undefined)
+// false
+```
+
 ### Using detect-svg
 ```js
+const detectSVG = require("./index.js");
+
 console.log( detectSVG('<svg xmlns="http://www.w3.org/2000/svg"><path fill="#00CD9F"/></svg>') )
 ```
 
