@@ -3,7 +3,11 @@
 	"version": "1.0.0",
 	"description": "Detect a string or buffer is SVG or not",
 	"license": "MIT",
-	"repository": "basemax/detect-svg",
+	"repository" : {
+		"type" : "git",
+		"url": "ssh://git@github.com/basemax/detect-svg.git",
+		"directory": "basemax/detect-svg"
+	},
 	"author": {
 		"name": "Max Base",
 		"email": "maxbasecode@gmail.com",
@@ -43,3 +47,4 @@
 		"xo": "^0.24.0"
 	}
 }
+
