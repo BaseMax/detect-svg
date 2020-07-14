@@ -4,11 +4,11 @@ Detect a string or buffer is SVG or not (javascript, nodejs)
 
 ### Installing
 
-soon:
-
 ```
 npm i detect-svg
 ```
+
+You can view this package at npm (https://www.npmjs.com/package/detect-svg)
 
 ### Example
 
