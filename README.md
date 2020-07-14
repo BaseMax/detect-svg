@@ -1,6 +1,6 @@
 # detect-svg
 
-Detect a string or buffer is SVG or not (javascript, nodejs)
+Detect a string or buffer is SVG or not. (javascript, nodejs)
 
 ### Installing
 
@@ -28,8 +28,9 @@ detectSVG(undefined)
 ```
 
 ### Using detect-svg
+
 ```js
-const detectSVG = require("./index.js");
+const detectSVG = require("detect-svg");
 
 console.log( detectSVG('<svg xmlns="http://www.w3.org/2000/svg"><path fill="#00CD9F"/></svg>') )
 ```
