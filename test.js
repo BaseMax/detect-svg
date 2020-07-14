@@ -1,8 +1,10 @@
 // Max Base
 // https://github.com/BaseMax/detect-svg
 
-// const detectSVG = require("./index.js");
-const detectSVG = require("detect-svg");
+// Inner testing
+const detectSVG = require("./index.js");
+// Outer testing
+// const detectSVG = require("detect-svg");
 
 console.log("excepted", true, "and getting", detectSVG('<svg xmlns="http://www.w3.org/2000/svg"><path fill="#00CD9F"/></svg>') )
 console.log("excepted", true, "and getting", detectSVG('<svg></svg>') )
